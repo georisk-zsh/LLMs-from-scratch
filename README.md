@@ -81,28 +81,22 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 
 ## 使用本仓库的前提
 
-The most important prerequisite is a strong foundation in Python programming.
-With this knowledge, you will be well prepared to explore the fascinating world of LLMs
-and understand the concepts and code examples presented in this book.
-
-If you have some experience with deep neural networks, you may find certain concepts more familiar, as LLMs are built upon these architectures.
-
-This book uses PyTorch to implement the code from scratch without using any external LLM libraries. While proficiency in PyTorch is not a prerequisite, familiarity with PyTorch basics is certainly useful. If you are new to PyTorch, Appendix A provides a concise introduction to PyTorch. Alternatively, you may find my book, [PyTorch in One Hour: From Tensors to Training Neural Networks on Multiple GPUs](https://sebastianraschka.com/teaching/pytorch-1h/), helpful for learning about the essentials.
-
-
-
+最重要的前提条件是扎实的 Python 编程基础。掌握这一技能后，您将为探索大型语言模型的精彩世界做好充分准备，并能理解本书中呈现的概念与代码示例。
+如果您具备深度神经网络的相关经验，可能会对某些概念感到更加熟悉，因为大型语言模型正是基于这些架构构建的。
+本书使用 PyTorch 从零开始实现代码，无需借助任何外部 LLM 库。虽然精通 PyTorch 并非强制要求，但熟悉其基础知识无疑会大有裨益。若您是 PyTorch 的初学者，附录 A 提供了简洁的 PyTorch 入门指南。此外，您或许会发现我的著作
+[PyTorch in One Hour: From Tensors to Training Neural Networks on Multiple GPUs](https://sebastianraschka.com/teaching/pytorch-1h/), 对掌握核心知识有所帮助.
 <br>
 &nbsp;
 
-## Hardware Requirements
+## 硬件要求
 
-The code in the main chapters of this book is designed to run on conventional laptops within a reasonable timeframe and does not require specialized hardware. This approach ensures that a wide audience can engage with the material. Additionally, the code automatically utilizes GPUs if they are available. (Please see the [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md) doc for additional recommendations.)
+ 本书主要章节中的代码设计旨在让常规笔记本电脑也能在合理时间内完成运行，无需依赖专业硬件。这一设计理念确保了广大读者都能无障碍地实践本书内容。此外，若设备配备GPU，代码将自动启用GPU加速(具体配置建议参阅环境设置 [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md) 文档.)
 
 
 &nbsp;
-## Video Course
+## 视频课程
 
-[A 17-hour and 15-minute companion video course](https://www.manning.com/livevideo/master-and-build-large-language-models) where I code through each chapter of the book. The course is organized into chapters and sections that mirror the book's structure so that it can be used as a standalone alternative to the book or complementary code-along resource.
+一套长达17小时15分钟的配套视频课程，[A 17-hour and 15-minute companion video course](https://www.manning.com/livevideo/master-and-build-large-language-models) 我将在此课程中逐章编写本书代码。该课程按照与书籍完全对应的章节结构进行组织，既可独立作为书本的替代学习资料，也可作为配套的代码实践资源使用。
 
 <a href="https://www.manning.com/livevideo/master-and-build-large-language-models"><img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/video-screenshot.webp?123" width="350px"></a>
 
@@ -110,13 +104,9 @@ The code in the main chapters of this book is designed to run on conventional la
 &nbsp;
 
 
-## Companion Book / Sequel
+## 其他配套书本
 
-[*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B), while a standalone book, can be considered as a sequel to *Build A Large Language Model (From Scratch)*.
-
-It starts with a pretrained model and implements different reasoning approaches, including inference-time scaling, reinforcement learning, and distillation, to improve the model's reasoning capabilities. 
-
-Similar to *Build A Large Language Model (From Scratch)*, [*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B) takes a hands-on approach implementing these methods from scratch.
+[*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B), 虽然《从零开始构建推理模型》是一部独立著作，但可被视为《从零开始构建大语言模型》的续篇。 本书从预训练模型出发，通过实现不同的推理方法（包括推理时扩展、强化学习和知识蒸馏等技术）来提升模型的推理能力。 与《从零开始构建大语言模型》一脉相承，《从零开始构建推理模型》同样秉持动手实践理念，带领读者从零开始实现这些方法。
 
 <a href="https://mng.bz/lZ5B"><img src="https://sebastianraschka.com/images/reasoning-from-scratch-images/cover.webp?123" width="120px"></a>
 
@@ -127,11 +117,11 @@ Similar to *Build A Large Language Model (From Scratch)*, [*Build A Reasoning Mo
 <br>
 
 &nbsp;
-## Exercises
+## 练习
 
-Each chapter of the book includes several exercises. The solutions are summarized in Appendix C, and the corresponding code notebooks are available in the main chapter folders of this repository (for example,  [./ch02/01_main-chapter-code/exercise-solutions.ipynb](./ch02/01_main-chapter-code/exercise-solutions.ipynb).
+本书每个章节均包含若干练习题，参考答案概览详见附录C，完整的解题代码笔记本可在本书代码库的对应章节文件夹中获取。(for example,  [./ch02/01_main-chapter-code/exercise-solutions.ipynb](./ch02/01_main-chapter-code/exercise-solutions.ipynb).
 
-In addition to the code exercises, you can download a free 170-page PDF titled  [Test Yourself On Build a Large Language Model (From Scratch)](https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch) from the Manning website. It contains approximately 30 quiz questions and solutions per chapter to help you test your understanding.
+除了代码练习之外，您还可以从Manning官网免费下载长达170页的PDF文档。  [Test Yourself On Build a Large Language Model (From Scratch)](https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch) 该资料每章包含约30道测验题及参考答案，助您巩固对知识点的掌握。
 
 <a href="https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch"><img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/test-yourself-cover.jpg?123" width="150px"></a>
 
