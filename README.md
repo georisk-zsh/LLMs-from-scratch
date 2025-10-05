@@ -24,7 +24,7 @@ The method described in this book for training and developing your own small-but
 <br>
 <br>
 
-To download a copy of this repository, click on the [Download ZIP](https://github.com/rasbt/LLMs-from-scratch/archive/refs/heads/main.zip) button or execute the following command in your terminal:
+要下载此代码库的副本, 点击[Download ZIP](https://github.com/rasbt/LLMs-from-scratch/archive/refs/heads/main.zip) 按钮或者在你的terminal中执行下面的命令
 
 ```bash
 git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
@@ -74,15 +74,12 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 
 <br>
 &nbsp;
-The mental model below summarizes the contents covered in this book.
-
+以下心智模型概括了本书所涵盖的内容。
 <img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg" width="650px">
-
-
 <br>
 &nbsp;
 
-## Prerequisites
+## 使用本仓库的前提
 
 The most important prerequisite is a strong foundation in Python programming.
 With this knowledge, you will be well prepared to explore the fascinating world of LLMs
